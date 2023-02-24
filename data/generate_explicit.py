@@ -2,5 +2,5 @@
 
 import sys
 
-x, y, z = map(int, sys.argv[1:-1])
-print (x,y,z)
+x = int(sys.argv[-1])
+print (x)
